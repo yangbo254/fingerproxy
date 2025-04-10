@@ -4,9 +4,9 @@ import (
 	"log"
 
 	"github.com/dreadl0ck/tlsx"
-	"github.com/wi1dcard/fingerproxy/pkg/ja3"
-	"github.com/wi1dcard/fingerproxy/pkg/ja4"
-	"github.com/wi1dcard/fingerproxy/pkg/metadata"
+	"github.com/yangbo254/fingerproxy/pkg/ja3"
+	"github.com/yangbo254/fingerproxy/pkg/ja4"
+	"github.com/yangbo254/fingerproxy/pkg/metadata"
 )
 
 // echoResponse is the HTTP response struct of this echo server

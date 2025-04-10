@@ -15,11 +15,11 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/wi1dcard/fingerproxy/pkg/certwatcher"
-	"github.com/wi1dcard/fingerproxy/pkg/debug"
-	fp "github.com/wi1dcard/fingerproxy/pkg/fingerprint"
-	"github.com/wi1dcard/fingerproxy/pkg/proxyserver"
-	"github.com/wi1dcard/fingerproxy/pkg/reverseproxy"
+	"github.com/yangbo254/fingerproxy/pkg/certwatcher"
+	"github.com/yangbo254/fingerproxy/pkg/debug"
+	fp "github.com/yangbo254/fingerproxy/pkg/fingerprint"
+	"github.com/yangbo254/fingerproxy/pkg/proxyserver"
+	"github.com/yangbo254/fingerproxy/pkg/reverseproxy"
 )
 
 const logFlags = log.LstdFlags | log.Lshortfile | log.Lmsgprefix

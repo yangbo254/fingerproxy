@@ -8,11 +8,11 @@ import (
 	"strings"
 
 	"github.com/dreadl0ck/tlsx"
-	"github.com/wi1dcard/fingerproxy"
-	"github.com/wi1dcard/fingerproxy/pkg/fingerprint"
-	"github.com/wi1dcard/fingerproxy/pkg/ja3"
-	"github.com/wi1dcard/fingerproxy/pkg/metadata"
-	"github.com/wi1dcard/fingerproxy/pkg/reverseproxy"
+	"github.com/yangbo254/fingerproxy"
+	"github.com/yangbo254/fingerproxy/pkg/fingerprint"
+	"github.com/yangbo254/fingerproxy/pkg/ja3"
+	"github.com/yangbo254/fingerproxy/pkg/metadata"
+	"github.com/yangbo254/fingerproxy/pkg/reverseproxy"
 )
 
 func main() {

@@ -1,6 +1,6 @@
 # Use Fingerproxy as a Library
 
-For the documentation, refer to [godoc](https://pkg.go.dev/github.com/wi1dcard/fingerproxy/pkg).
+For the documentation, refer to [godoc](https://pkg.go.dev/github.com/yangbo254/fingerproxy/pkg).
 
 There are some vendored packages:
 

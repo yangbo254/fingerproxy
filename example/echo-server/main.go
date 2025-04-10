@@ -9,8 +9,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/wi1dcard/fingerproxy/pkg/debug"
-	"github.com/wi1dcard/fingerproxy/pkg/proxyserver"
+	"github.com/yangbo254/fingerproxy/pkg/debug"
+	"github.com/yangbo254/fingerproxy/pkg/proxyserver"
 )
 
 var (

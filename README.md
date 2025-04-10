@@ -27,7 +27,7 @@ Fingerproxy is also a Go library, which allows users implementing their own fing
       -addext "subjectAltName=DNS:localhost,DNS:*.localhost,IP:127.0.0.1"
     ```
 
-2. Download the [fingerproxy binary](https://github.com/wi1dcard/fingerproxy/releases) and run.
+2. Download the [fingerproxy binary](https://github.com/yangbo254/fingerproxy/releases) and run.
     ```bash
     ./fingerproxy -listen-addr :8443 -forward-url https://httpbin.org
     ```
@@ -67,7 +67,7 @@ And of course, fingerproxy follows SemVer.
 
 ## Kubernetes and Prometheus Integration
 
-Kubernetes liveness probe support is available since [v0.3.0](https://github.com/wi1dcard/fingerproxy/releases/tag/v0.3.0). Example:
+Kubernetes liveness probe support is available since [v0.3.0](https://github.com/yangbo254/fingerproxy/releases/tag/v0.3.0). Example:
 
 ```yaml
 apiVersion: v1
@@ -145,7 +145,7 @@ Here is an example [`echo-server`](example/echo-server/). Instead of forwarding 
 
 - <https://scrapfly.io/web-scraping-tools/ja3-fingerprint>
 
-  JA3 and HTTP2 fingerprint. As per the comment from Scrapfly team member, Scrapfly uses an improved variant of JA3 implementation. It makes more sense in real life use cases, however, please notice that these JA3 results are not comparable with others. For more information, please read issue [#14](https://github.com/wi1dcard/fingerproxy/issues/14).
+  JA3 and HTTP2 fingerprint. As per the comment from Scrapfly team member, Scrapfly uses an improved variant of JA3 implementation. It makes more sense in real life use cases, however, please notice that these JA3 results are not comparable with others. For more information, please read issue [#14](https://github.com/yangbo254/fingerproxy/issues/14).
 
 - <https://tls.peet.ws/>
 
